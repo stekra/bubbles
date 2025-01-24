@@ -11,9 +11,24 @@
 <body>
     <h1>bro waht</h1>
     <div class="grid">
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
+        <div class="item">
+            <div id="sb1" class="active sb sb-top-left">
+                Hello there.<br>
+                <a data-activate-sb="sb2">activate other speech bubbelbelbe<br></a>
+                <a data-activate-img="img1">activate image.</a>
+            </div>
+        </div>
+        <div class="item">
+            <div id="sb2" class="sb sb-top-right">
+                General Kenobi.
+                <a data-activate-img="img1">Yes.</a>
+            </div>
+        </div>
+        <div class="item">
+            <div id="img1">
+                <img data-activate-sb="" src="birb.png">
+            </div>
+        </div>
         <div class="item"></div>
         <div class="item"></div>
         <div class="item"></div>
@@ -23,5 +38,25 @@
         <div class="item"></div>
     </div>
 </body>
+
+<footer>
+    <script>
+        const clickables = document.querySelectorAll('[data-activate-sb], [data-activate-img]');
+        clickables.forEach(clickedItem => {
+            clickedItem.addEventListener('click', () => {
+                console.log(clickedItem + ' clicked');
+                if (clickedItem.parentElement.classList.contains('active')) {
+                    console.log('is active');
+                    clickedItem.parentElement.classList.remove('active');
+                    clickedItem.parentElement.classList.add('inactive');
+                    let targetId = clickedItem.getAttribute('data-activate-sb') || clickedItem.getAttribute('data-activate-img');
+                    console.log('targetId: ' + targetId);
+                    let activate = document.getElementById(targetId);
+                    activate.classList.add('active');
+                }
+            });
+        });
+    </script>
+</footer>
 
 </html>

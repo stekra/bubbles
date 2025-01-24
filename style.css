@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.item {
+    border: 2px solid #ffa94d;
+    background-color: #ffd8a8;
+    color: #d9480f;
+    min-width: 100px;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: masonry;
+}

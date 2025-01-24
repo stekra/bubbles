@@ -50,6 +50,18 @@ body {
     right: -10px;
 }
 
+.sb-bottom-left {
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+}
+
+.sb-bottom-right {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+
 /* Cursor and link stuff */
 .active a,
 .active img {

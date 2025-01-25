@@ -4,6 +4,7 @@ def generate_html(folder_path, output_file="output.html"):
     # Get a list of image files in the folder
     allowed_extensions = {"jpg", "jpeg", "png", "gif", "bmp", "webp"}
     image_files = [f for f in os.listdir(folder_path) if f.split('.')[-1].lower() in allowed_extensions]
+    image_files = sorted(image_files, reverse=True)
 
     # Start building the HTML content
     html_content = """<!DOCTYPE html>

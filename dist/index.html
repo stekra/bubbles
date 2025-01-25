@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ggj25</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Findings 1920-1932</h1>
+    <p>Assorted astrophysical documentations. Collected from 1920 to 1932 in the Library of Eidgenössische Technische Hochschule, Zurich.</p>
+    <div class="grid">
+        <div class="item">
+            <div id="img1" class="img-container">
+                <img src="imgs/iiif-service_rbc_rbc0001_2003_2003rosen1810_036-full-pct_25-0-default.jpg" alt="Image 1">
+            </div>
+        </div>
+        
+        <div class="item">
+            <div id="img2" class="img-container">
+                <img src="imgs/service-rbc-rbc0001-2013-2013rosen1431-0107r.jpg" alt="Image 2">
+            </div>
+            <div id="sb1" class="active sb sb-bottom-left">
+                Hello there.<br>
+                <a data-activate-sb="sb2">activate other speech bubbelbelbe<br></a>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div id="img3" class="img-container">
+                <img src="imgs/iiif-service_rbc_rbc0001_2006_2006rosen0004_0019-full-pct_50-0-default.jpg" alt="Image 3">
+            </div>
+            <div id="sb2" class="sb sb-top-right">
+                General Kenobi.
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+<footer>
+    <script>
+        const clickables = document.querySelectorAll('[data-activate-sb], [data-activate-img]');
+        clickables.forEach(clickedItem => {
+            clickedItem.addEventListener('click', () => {
+                console.log(clickedItem + ' clicked');
+                if (clickedItem.parentElement.classList.contains('active')) {
+                    console.log('is active');
+                    clickedItem.parentElement.classList.remove('active');
+                    clickedItem.parentElement.classList.add('inactive');
+                    let targetId = clickedItem.getAttribute('data-activate-sb') || clickedItem.getAttribute('data-activate-img');
+                    console.log('targetId: ' + targetId);
+                    let activate = document.getElementById(targetId);
+                    activate.classList.add('active');
+                }
+            });
+        });
+    </script>
+</footer>
+
+</html>

@@ -10,11 +10,14 @@
 
 <body>
     <h1>Findings 1920-1932</h1>
-    <p>Assorted astrophysical documentations. Collected from 1920 to 1932 in the Library of Eidgenössische Technische Hochschule, Zurich.</p>
+    <p>Assorted astrophysical documentations. Collected from 1920 to 1932 in the libraries of Eidgenössische Technische Hochschule, Zurich.</p>
     <div class="grid">
         <div class="item">
             <div id="img1" class="img-container">
                 <img src="imgs/x_i_iif-service_rbc_rbc0001_2006_2006rosen0004_0019-full-pct_50-0-default.jpg" alt="Image 1">
+            </div>
+            <div id="sb0" class="active sb sb-bottom-left">
+                Remember me?<br>
             </div>
         </div>
         
@@ -24,7 +27,7 @@
             </div>
             <div id="sb1" class="active sb sb-bottom-left">
                 Hello there.<br>
-                <a data-activate-sb="sb2">activate other speech bubbelbelbe<br></a>
+                <a data-activate-sb="sb2 sb3" data-deactivate-sb="sb0">activate other speech bubbelbelbe<br></a>
             </div>
         </div>
         
@@ -40,6 +43,9 @@
         <div class="item">
             <div id="img4" class="img-container">
                 <img src="imgs/SIK_02-02-0047-Screen.jpg" alt="Image 4">
+            </div>
+            <div id="sb3" class="sb sb-top-right">
+                I love you.
             </div>
         </div>
         
@@ -480,6 +486,27 @@
 
 <footer>
     <script>
+        function getTags(item, tags) {
+            let str = ""
+            tags.forEach(tag => {
+                str += item.getAttribute(tag) || '';
+            });
+
+            str = str.trim();
+            return str;
+        }
+
+        function processIdList(ids, func) {
+            if (ids) {
+                ids.split(' ').forEach(id => {
+                    let item = document.getElementById(id.trim());
+                    if (item) {
+                        func(item);
+                    }
+                });
+            }
+        }
+
         const clickables = document.querySelectorAll('[data-activate-sb], [data-activate-img]');
         clickables.forEach(clickedItem => {
             clickedItem.addEventListener('click', () => {
@@ -488,10 +515,17 @@
                     console.log('is active');
                     clickedItem.parentElement.classList.remove('active');
                     clickedItem.parentElement.classList.add('inactive');
-                    let targetId = clickedItem.getAttribute('data-activate-sb') || clickedItem.getAttribute('data-activate-img');
-                    console.log('targetId: ' + targetId);
-                    let activate = document.getElementById(targetId);
-                    activate.classList.add('active');
+
+                    let activateIds = getTags(clickedItem, ['data-activate-sb', 'data-activate-img']);
+                    let deactivateIds = getTags(clickedItem,  ['data-deactivate-sb', 'data-deactivate-img']);
+
+                    processIdList(activateIds, item => {
+                        item.classList.add('active');
+                    });
+
+                    processIdList(deactivateIds, item => {
+                        item.classList.remove('active');
+                    })
                 }
             });
         });

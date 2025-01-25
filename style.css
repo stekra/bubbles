@@ -75,7 +75,7 @@ body {
 
 .sb-top-right::after {
     bottom: -40px;
-    left: 31%;
+    left: -11%;
     transform: rotate(35deg);
 }
 
@@ -87,7 +87,7 @@ body {
 
 .sb-bottom-right::after {
     top: -40px;
-    left: 31%;
+    left: -11%;
     transform: rotate(145deg);
 }
 

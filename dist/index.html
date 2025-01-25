@@ -349,7 +349,7 @@
             </div>
             <div id="sb-k-33" class="sb sb-bottom-left">
                 It rings a bell... Some happy bells.<br>
-                <a data-activate-sb="">*</a>
+                <a data-activate-sb="" data-deactivate-sb="sb-k-14 sb-k-15">*</a>
             </div>
         </div>
         
@@ -608,6 +608,7 @@
 
                     processIdList(deactivateIds, item => {
                         item.classList.remove('active');
+                        item.classList.add('inactive');
                     })
                 }
             });

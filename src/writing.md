@@ -40,32 +40,48 @@ You did it after all!
 
 ===
 Although he's fading quickly, yesterday he actually remembered you work at the University. Though he thought you were a doctor.
-You aren't a doctor, right?
----
-[TWO OF THEM:]
 He's very sick. But he's very proud of you.
-- [Go visit]
+- [GoVisit]
 ///
-Not everyone is willing to sacrifice this much for truth. You're so close.
+I can feel the cosmos tremble. I am so close.
 - [Study]
 ---
-[Go visit]
+[GoVisit]
 I am so surprised you came after all. You told me you were so busy.
-Too bad you can't stay long. It was nice seeing you.
+Too bad you can't stay long. I'm sure he appreciated the visit, too.
+Some things are gone yes, but some remain.
+Like a sickle of sun before it will be fully eclipsed.
 ///
 It's lonely out here.
 ---
 [Study]
 Would he recognize you? I don't know. Would you even recognize him?
-I see a lot of him in you. k
 ///
-We're not so different, you and I. There, but hidden, eclipsed.
+You have delved deep into the secrets of your world.
+You are trying to transcend mankind.
+I know what you have been trying to achieve.
+You are building a machine that will close the gap between you and the sky.
+There is a piece that you're still missing.
+You need to wait for the right moment, before the space closes.
+When there is only a thin, bright sickle left of the white sun.
 ---
-[IMG totale sonnenfinsternis-maschine]
-He said he is of a different world.
-Only fleeting memories of his old life.
-I still remember you, for now.
-I still wonder what exactly you do, and where you've gone now.
+[IMGPartialEclipse]
+Ah yes. I am sorry. It is a bit strange, talking to him.
+Many things have changed. Some are gone, maybe.
+But he's still the same person. Because all he will eat for breakfast are his three eggs.
+It's been the same for 20 years.
+Do you mind going to fetch the three eggs?
+---
+[IMGThreeCosmicEggs]
+Thank you for the eggs.
+Have I met you before? I don't remember you.
+Family...
+That's what they all say...
+But I think I am of a different world.
+You seem very interesting. Very smart.
+And I like your voice. It's warm.
+Do you hear the bells, too?
+It's a wonderful sound.
 ===
 
 
@@ -126,3 +142,10 @@ It rings a bell... Some happy bells.
 
 
 It's lonely out here.
+
+
+
+===
+
+Then there will be no more gap between you and I.
+I hope we can be friends, then.

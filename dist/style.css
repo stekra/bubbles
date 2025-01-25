@@ -81,7 +81,7 @@ img {
 
 .sb-top-right::after {
     bottom: -40px;
-    left: -11%;
+    left: 20%;
     transform: rotate(35deg);
 }
 
@@ -118,6 +118,10 @@ img {
 
 .active a:hover {
     color: yellow;
+}
+
+.inactive a:hover {
+    color: white;
 }
 
 .inactive a,

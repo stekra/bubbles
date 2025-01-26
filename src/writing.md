@@ -66,7 +66,9 @@ Thank you for the eggs.
 Have I met you before? I don't remember you.
 Family...
 That's what they all say...
-But I think I am of a different world.
+So, you're my grandchild, then.
+I don't understand much of what people tell me.
+I think I am of a different world.
 You seem very interesting. Very smart.
 And I like your voice. It's warm.
 Do you hear the bells, too?

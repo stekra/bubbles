@@ -18,7 +18,7 @@ The orion nebula looks like a star from earth. It is part of Orion's sword in th
 
 Imagine the vastness of our ignorance.
 
-I missed my doctor's appointment this week. I've been struggling to keep up this tasks.
+I missed my doctor's appointment this week. I've been struggling to keep up with these tasks.
 
 I haven't seen you in a while. You're so busy with your star adventures.
 

@@ -693,9 +693,12 @@
             <div id="img73" class="img-container">
                 <img src="imgs/Ans_00253-A-Screen.jpg" alt="Image 73">
             </div>
+            <div id="sb-start-04" class="active sb sb-top-right">
+                <a onclick="fadeOut()">Fade out.</a>
+            </div>
         </div>
-
     </div>
+    <div id="sb-final" class="sb sb-top-right">I hope we can be friends, then.</div>
 </body>
 
 <footer>
@@ -760,6 +763,20 @@
         }
 
         randomizeBubbles();
+    </script>
+    <script>
+        function fadeOut() {
+            const items = document.querySelectorAll('.item');
+            items.forEach(item => {
+                item.classList.add('fade-out');
+            });
+
+            const body = document.querySelector('body');
+            body.classList.add('to-black');
+
+            const finalBubble = document.getElementById('sb-final');
+            finalBubble.classList.add('active');
+        }
     </script>
 </footer>
 

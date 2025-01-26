@@ -15,6 +15,7 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
+    position: relative;
 }
 
 .item {
@@ -26,6 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .img-container {
@@ -139,4 +141,45 @@ img {
 .sb.inactive {
     visibility: visible;
     opacity: 0.5;
+}
+
+
+/* ending animation */
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes toBlack {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: black;
+    }
+}
+
+.fade-out {
+    animation: fadeOut 1s forwards;
+}
+
+.to-black {
+    animation: toBlack 1s forwards;
+}
+
+#sb-final {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 4000px;
+    left: 300px;
+}
+
+#sb-final::after {
+    border-top: 80px solid white;
 }

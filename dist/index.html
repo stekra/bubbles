@@ -94,8 +94,12 @@
         </div>
 
         <div class="item">
-            <div id="img77" class="img-container">
+            <div id="img83" class="img-container">
                 <img src="imgs/11465.jpg" alt="Image 25">
+            </div>
+            <div id="sb-k-21" class="active sb sb-top-right">
+                Photograph: Particle Tracks, Bubble Chamber, 32cm, CERN, 16 GeV pions<br>
+                <a data-activate-sb="">Dismiss</a>
             </div>
         </div>
 
@@ -215,12 +219,6 @@
         </div>
 
         <div class="item">
-            <div id="img7" class="img-container">
-                <img src="imgs/Dia_326-729-Screen.jpg" alt="Image 7">
-            </div>
-        </div>
-
-        <div class="item">
             <div id="img39" class="img-container">
                 <img src="imgs/Ans_04527-Screen.jpg" alt="Image 39">
             </div>
@@ -293,6 +291,12 @@
         <div class="item">
             <div id="img10" class="img-container">
                 <img src="imgs/Dia_247-14415-Screen.jpg" alt="Image 10">
+            </div>
+        </div>
+
+        <div class="item">
+            <div id="img7" class="img-container">
+                <img src="imgs/Dia_326-729-Screen.jpg" alt="Image 7">
             </div>
         </div>
 
@@ -656,7 +660,7 @@
             <div id="img80" class="img-container">
                 <img src="imgs/Ans_02775-081.jpg">
             </div>
-            <div id="sb-start-07" class="sb sb-bottom-left">
+            <div id="sb-start-07" class="sb sb-top-left">
                 Imagine the vastness of our ignorance.<br>
                 <a data-activate-sb="sb-start-08">Dismiss</a>
             </div>
@@ -737,6 +741,19 @@
                 }
             });
         });
+    </script>
+    <script>
+        function randomizeBubbles() {
+            bubbles = document.querySelectorAll('.sb');
+            console.log(bubbles);
+            bubbles.forEach(bubble => {
+                let randomX = Math.floor(Math.random() * 21) - 10; 
+                let randomY = Math.floor(Math.random() * 21) - 10;
+                bubble.style.transform = `translate(${randomX}px, ${randomY}px)`;
+            })
+        }
+
+        randomizeBubbles();
     </script>
 </footer>
 

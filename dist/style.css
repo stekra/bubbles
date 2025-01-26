@@ -2,6 +2,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
     --sb-offset: -20px;
+    --bubble-color: rgb(0, 0, 0);
+    --bubble-color-second: rgb(255, 255, 255);
 }
 
 body {
@@ -39,15 +41,14 @@ img {
 
 /* Speech bubble configuration stuff */
 .sb {
-    background-color: royalblue;
+    background-color: var(--bubble-color);
     width: fit-content;
-    padding: 30px;
-    border-radius: 100%;
+    padding: 20px;
+    border-radius: 10px;
     visibility: hidden;
-    text-align: center;
     z-index: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    color: white;
+    color: var(--bubble-color-second);
+    font-size: 13px;
 }
 
 .sb:after {
@@ -57,7 +58,7 @@ img {
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 80px solid royalblue;
+    border-top: 80px solid var(--bubble-color);
     z-index: -1;
 }
 

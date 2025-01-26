@@ -93,7 +93,7 @@ img {
 
 .sb-bottom-right::after {
     top: -40px;
-    left: -11%;
+    left: 20%;
     transform: rotate(145deg);
 }
 

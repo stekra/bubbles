@@ -109,6 +109,7 @@ I've successfully avoided talking about him for 20 years.
 He was so talented...
 ...He was engrossed with his work at the observatorium...
 The last month I knew him, he became focues on sun spots...
+...And he was working on a device to better caputrethem ...
 ...It was the Eidgenössische Sternwarte in Zurich...
 That's where I last saw him....
 ...I asked him to come home.......sleep...
@@ -122,6 +123,8 @@ That's where I last saw him....
 I am of a different world.
 I have fleeting memories of my old life.
 Some people, some faces.
+A place... The observatorium.
+I created something special, that transformed me.
 Faint voices, warm and familiar.
 Frido, you say? 
 It rings a bell... Some happy bells.
@@ -139,35 +142,48 @@ Still awaiting data from Berlin. As usual, relying on the diligence of others le
 - [Stargaze]
 ---
 [Stargaze]
-The path forward is clear: A new machine, an instrument.
+The path forward is clear: An instrument to close the distance.
+So far: Only a skeleton of a device, shaped somewhat like a mushroom.
 ---
 [factory/mushroom]
+They say I'm far away. If only they knew.
+The professors in Berlin will finally understand.
+The two halves of the spherical body of the machine are already finished.
+I need to go check on its calibration process.
 ---
 [factory/twoHalves]
-You should write a letter to mother. She deserves to know. But first, where did you leave that part? It must be back at aGlutzCo.
+Maybe you should write a letter to mother. She deserves to know.
+But first: The production on the final part was completed.
+I got word this morning from A. Glutz & Co.
+I must go now!
 ---
 [factory/aGlutzCo]
 Carrying the part back to the workshop feels unusually light under the clear night sky.
 Am I forgetting something? Nevermind.
+The machine is almost complete. Where did I leave my blueprint?
+I remember: In between moons. Next to Mars.
 ---
-We're waiting for you (pictures of stars/frido/klaus/grandad, multiple bubbles)
----
-
+We're waiting for you! (pictures of stars/frido/klaus/grandad, multiple bubbles)
 
 I won't be coming back home.
 
 I will be much like you, soon. (pointing to star in the pic)
 
 I love you (over picture of person, over picture of the stars)
-
-The world, knowledge, laid out and sorted, annotated, connected.
-
-They say I'm far away. If only they knew.
-
 ---
-Tomorrow I'll know whether it was all worth it.
+[AstralMachine]
+Let's pull the lever. It's gearing up.
+The acceleration coils are spinning at an enormous speed.
+I hope they reinforced the top screws.
+The whole rooms is heating up.
+Soon I'll know whether it was all worth it.
 Then there will be no more gap between you and I.
-I hope we can be friends, then.
+Soon I'll be of a different world.
 ---
-THE END
+[END]
+I hope we can be friends, then.
 ===
+
+I wish that I could turn back time
+Cause now the guilt is all mine
+Can't live without the trust oft those you love

@@ -11,11 +11,14 @@ Dismiss
 IMG_751638: Lunar Study. Stayed up all night for the clouds to clear. Was rewarded with a perfect view.
 Dismiss
 
+Photograph: Particle Tracks, Bubble Chamber, 32cm, CERN, 16 GeV pions
+So often I trace the lines of the image with my fingers and feel in good company.
+
 The orion nebula looks like a star from earth. It is part of Orion's sword in the constellation. But it is not a star, more like a cloud of cosmic dust. The ancient greeks never knew.
 
 Imagine the vastness of our ignorance.
 
-I missed my doctor's appointment this week. I've been struggling to keep up this tasks.
+I missed my doctor's appointment this week. I've been struggling to keep up with these tasks.
 
 I haven't seen you in a while. You're so busy with your star adventures.
 

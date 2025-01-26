@@ -11,16 +11,17 @@ Dismiss
 IMG_751638: Lunar Study. Stayed up all night for the clouds to clear. Was rewarded with a perfect view.
 Dismiss
 
-Round Round Round Round Round
-Round Round Round Round Round
-Round
+The orion nebula looks like a star from earth. It is part of Orion's sword in the constellation. But it is not a star, more like a cloud of cosmic dust. The ancient greeks never knew.
 
-Nebula: I haven't seen you in a while. You're so busy with your star adventures.
-
-The orion nebula looks like a star from earth. It is part of Orion's sword in the constellation. But it is not a star, more like a star-fog. The ancient greeks could have never guessed.
+Imagine the vastness of our ignorance.
 
 I missed my doctor's appointment this week. I've been struggling to keep up this tasks.
 
+I haven't seen you in a while. You're so busy with your star adventures.
+
+Round Round Round Round Round
+Round Round Round Round Round
+Round
 
 ---
 I should write a letter to Mother. She deserves to know.

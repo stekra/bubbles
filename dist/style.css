@@ -9,6 +9,7 @@
 body {
     margin: 0 auto 100px auto;
     max-width: 800px;
+    background-image: url("imgs/bg.png");
 }
 
 .grid {

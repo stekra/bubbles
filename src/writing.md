@@ -26,21 +26,6 @@ Round Round Round Round Round
 Round Round Round Round Round
 Round
 
----
-I should write a letter to Mother. She deserves to know.
-
-I won't be coming back home.
-
-Tomorrow I'll know whether it was all worth it.
-
-I will be much like you, soon. (pointing to star in the pic)
-
-I love you (over picture of person, over picture of the stars)
-
-You did it after all!
----
-
-
 
 ===
 Although he's fading quickly, yesterday he actually remembered you work at the University. Though he thought you were a doctor.
@@ -150,6 +135,39 @@ It's lonely out here.
 
 
 ===
+Still awaiting data from Berlin. As usual, relying on the diligence of others leads to disappointment. As usual, you take matters into your own hands.
+- [Stargaze]
+---
+[Stargaze]
+The path forward is clear: A new machine, an instrument.
+---
+[factory/mushroom]
+---
+[factory/twoHalves]
+You should write a letter to mother. She deserves to know. But first, where did you leave that part? It must be back at aGlutzCo.
+---
+[factory/aGlutzCo]
+Carrying the part back to the workshop feels unusually light under the clear night sky.
+Am I forgetting something? Nevermind.
+---
+We're waiting for you (pictures of stars/frido/klaus/grandad, multiple bubbles)
+---
 
+
+I won't be coming back home.
+
+I will be much like you, soon. (pointing to star in the pic)
+
+I love you (over picture of person, over picture of the stars)
+
+The world, knowledge, laid out and sorted, annotated, connected.
+
+They say I'm far away. If only they knew.
+
+---
+Tomorrow I'll know whether it was all worth it.
 Then there will be no more gap between you and I.
 I hope we can be friends, then.
+---
+THE END
+===
